@@ -1,0 +1,5 @@
+[console_scripts]
+a_star_planner = my_bot_nav.a_star_planner:main
+direct_motor_driver = my_bot_nav.direct_motor_driver:main
+odometry_node = my_bot_nav.odometry_node:main
+path_follower = my_bot_nav.path_follower:main
