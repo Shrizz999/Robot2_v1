@@ -1,0 +1,38 @@
+[1.350s] Invoking command in '/home/robovyu/nav_ws/src/my_bot_nav': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robovyu/nav_ws/build/my_bot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robovyu/nav_ws/install/my_bot_nav/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_bot_nav build --build-base /home/robovyu/nav_ws/build/my_bot_nav/build install --record /home/robovyu/nav_ws/build/my_bot_nav/install.log --single-version-externally-managed install_data
+[1.734s] running egg_info
+[1.761s] writing ../../build/my_bot_nav/my_bot_nav.egg-info/PKG-INFO
+[1.765s] writing dependency_links to ../../build/my_bot_nav/my_bot_nav.egg-info/dependency_links.txt
+[1.766s] writing entry points to ../../build/my_bot_nav/my_bot_nav.egg-info/entry_points.txt
+[1.766s] writing requirements to ../../build/my_bot_nav/my_bot_nav.egg-info/requires.txt
+[1.766s] writing top-level names to ../../build/my_bot_nav/my_bot_nav.egg-info/top_level.txt
+[1.825s] reading manifest file '../../build/my_bot_nav/my_bot_nav.egg-info/SOURCES.txt'
+[1.827s] writing manifest file '../../build/my_bot_nav/my_bot_nav.egg-info/SOURCES.txt'
+[1.827s] running build
+[1.827s] running build_py
+[1.828s] copying my_bot_nav/odometry_node.py -> /home/robovyu/nav_ws/build/my_bot_nav/build/lib/my_bot_nav
+[1.829s] copying my_bot_nav/direct_motor_driver.py -> /home/robovyu/nav_ws/build/my_bot_nav/build/lib/my_bot_nav
+[1.829s] copying my_bot_nav/path_follower.py -> /home/robovyu/nav_ws/build/my_bot_nav/build/lib/my_bot_nav
+[1.829s] copying my_bot_nav/a_star_planner.py -> /home/robovyu/nav_ws/build/my_bot_nav/build/lib/my_bot_nav
+[1.829s] running install
+[1.839s] running install_lib
+[1.867s] copying /home/robovyu/nav_ws/build/my_bot_nav/build/lib/my_bot_nav/odometry_node.py -> /home/robovyu/nav_ws/install/my_bot_nav/lib/python3.12/site-packages/my_bot_nav
+[1.867s] copying /home/robovyu/nav_ws/build/my_bot_nav/build/lib/my_bot_nav/direct_motor_driver.py -> /home/robovyu/nav_ws/install/my_bot_nav/lib/python3.12/site-packages/my_bot_nav
+[1.868s] copying /home/robovyu/nav_ws/build/my_bot_nav/build/lib/my_bot_nav/path_follower.py -> /home/robovyu/nav_ws/install/my_bot_nav/lib/python3.12/site-packages/my_bot_nav
+[1.868s] copying /home/robovyu/nav_ws/build/my_bot_nav/build/lib/my_bot_nav/a_star_planner.py -> /home/robovyu/nav_ws/install/my_bot_nav/lib/python3.12/site-packages/my_bot_nav
+[1.869s] byte-compiling /home/robovyu/nav_ws/install/my_bot_nav/lib/python3.12/site-packages/my_bot_nav/odometry_node.py to odometry_node.cpython-312.pyc
+[1.871s] byte-compiling /home/robovyu/nav_ws/install/my_bot_nav/lib/python3.12/site-packages/my_bot_nav/direct_motor_driver.py to direct_motor_driver.cpython-312.pyc
+[1.872s] byte-compiling /home/robovyu/nav_ws/install/my_bot_nav/lib/python3.12/site-packages/my_bot_nav/path_follower.py to path_follower.cpython-312.pyc
+[1.874s] byte-compiling /home/robovyu/nav_ws/install/my_bot_nav/lib/python3.12/site-packages/my_bot_nav/a_star_planner.py to a_star_planner.cpython-312.pyc
+[1.877s] running install_data
+[1.881s] copying package.xml -> /home/robovyu/nav_ws/install/my_bot_nav/share/my_bot_nav
+[1.882s] copying launch/navigation.launch.py -> /home/robovyu/nav_ws/install/my_bot_nav/share/my_bot_nav/launch
+[1.882s] running install_egg_info
+[1.915s] removing '/home/robovyu/nav_ws/install/my_bot_nav/lib/python3.12/site-packages/my_bot_nav-0.0.0-py3.12.egg-info' (and everything under it)
+[1.916s] Copying ../../build/my_bot_nav/my_bot_nav.egg-info to /home/robovyu/nav_ws/install/my_bot_nav/lib/python3.12/site-packages/my_bot_nav-0.0.0-py3.12.egg-info
+[1.917s] running install_scripts
+[2.111s] Installing a_star_planner script to /home/robovyu/nav_ws/install/my_bot_nav/lib/my_bot_nav
+[2.114s] Installing direct_motor_driver script to /home/robovyu/nav_ws/install/my_bot_nav/lib/my_bot_nav
+[2.115s] Installing odometry_node script to /home/robovyu/nav_ws/install/my_bot_nav/lib/my_bot_nav
+[2.115s] Installing path_follower script to /home/robovyu/nav_ws/install/my_bot_nav/lib/my_bot_nav
+[2.116s] writing list of installed files to '/home/robovyu/nav_ws/build/my_bot_nav/install.log'
+[2.207s] Invoked command in '/home/robovyu/nav_ws/src/my_bot_nav' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robovyu/nav_ws/build/my_bot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robovyu/nav_ws/install/my_bot_nav/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_bot_nav build --build-base /home/robovyu/nav_ws/build/my_bot_nav/build install --record /home/robovyu/nav_ws/build/my_bot_nav/install.log --single-version-externally-managed install_data
